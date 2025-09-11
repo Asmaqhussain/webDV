@@ -1,0 +1,28 @@
+/*
+Author: Asmaq
+Date: 2025-09-11
+*/
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 36px;
+}
+
+p {
+    color: #555555;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
