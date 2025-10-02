@@ -1,0 +1,25 @@
+/*
+Author: Asmaq
+Date: 2025-10-01
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  img, audio, video {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
