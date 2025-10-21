@@ -3,58 +3,60 @@ Author: Asmaq
 Date: 2025-10-08
 */
 
+/* Element selectors */
 h1 {
-    color: navy;
-    font-size: 2em;
-  }
-  
-  p {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-  }
+  color: navy;
+  font-size: 2em;
+}
 
-  #special-message {
-    color: crimson;
-    font-weight: bold;
-    background-color: #f9f2f4;
-    padding: 10px;
-    border-left: 4px solid crimson;
-  }
+p {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
 
-  .parallel-box {
-    background-color: #e0f7fa;
-    border: 1px solid #00acc1;
-    padding: 10px;
-  }
-  
-  .interstaller-box {
-    background-color: #f3e5f5;
-    border: 1px solid #8e24aa;
-    padding: 10px;
-  }
-  
+/* ID selector */
+#special-message {
+  color: crimson;
+  font-weight: bold;
+  background-color: #f9f2f4;
+  padding: 10px;
+  border-left: 4px solid crimson;
+}
 
-  h1, h2, h3 {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
+/* Class selectors */
+.box {
+  background-color: #e0f7fa;
+  border: 1px solid #00acc1;
+  padding: 10px;
+}
 
-  section ul li {
-    color: darkgreen;
-    font-style: italic;
-  }
-  
+.highlight {
+  background-color: #f3e5f5;
+  border: 1px solid #8e24aa;
+  padding: 10px;
+}
 
-  a[target="_blank"] {
-    color: teal;
-    text-decoration: underline;
-    font-weight: bold;
-  }
-  
-  img[alt] {
-    border: 3px dashed #4caf50;
-    max-width: 100%;
-    height: auto;
-  }
-  
+/* Group selector */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Descendant selector */
+section ul li {
+  color: darkgreen;
+  font-style: italic;
+}
+
+/* Attribute selectors */
+a[target="_blank"] {
+  color: teal;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+img[alt] {
+  border: 3px dashed #4caf50;
+  max-width: 100%;
+  height: auto;
+}
