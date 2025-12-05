@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BlueCurrent Rentals — Order</title>
+  <meta name="description" content="Submit a rental order request for kayaks and canoes.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="index.html">BlueCurrent Rentals</a>
+      <div class="nav-actions">
+        <a class="nav-cta" href="catalog.html">View catalog</a>
+        <a class="nav-cta" href="order.html">Place order</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="about" aria-labelledby="order-title">
+      <h1 id="order-title">Place your rental order</h1>
+      <p class="subhead">Choose your kayak, set your rental dates, and send us your request. We’ll confirm availability and pickup details by email.</p>
+    </section>
+
+ 
+    <section class="catalog" aria-labelledby="form-title">
+      <h2 id="form-title">Rental order form</h2>
+
+      <form action="#" method="post" class="order-form">
+      
+        <fieldset>
+          <legend>Customer information</legend>
+
+          <div class="form-row">
+            <label for="full-name">Full name</label>
+            <input id="full-name" name="full_name" type="text" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" required>
+          </div>
+        </fieldset>
+
+       
+        <fieldset>
+          <legend>Rental details</legend>
+
+          <div class="form-row">
+            <label for="item">Item to rent</label>
+            <select id="item" name="item" required>
+              <option value="" disabled selected>Select an item</option>
+              <option value="canoe2">Canoe for 2</option>
+              <option value="groupkayak">Group kayak</option>
+              <option value="icekayak_solo">Ice kayak (solo)</option>
+              <option value="icekayak_2">Ice kayak for 2</option>
+              <option value="kayaking_2">Kayaking for 2</option>
+              <option value="solo_kayak">Solo kayak</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="start-date">Start date</label>
+            <input id="start-date" name="start_date" type="date" required>
+          </div>
+
+          <div class="form-row">
+            <label for="end-date">End date</label>
+            <input id="end-date" name="end_date" type="date" required>
+          </div>
+
+          <div class="form-row">
+            <label for="quantity">Quantity</label>
+            <input id="quantity" name="quantity" type="number" min="1" max="10" step="1" required>
+          </div>
+        </fieldset>
+
+      
+        <fieldset>
+          <legend>Additional info & consent</legend>
+
+          <div class="form-row">
+            <label for="message">Message / special wishes</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+
+          <div class="form-row checkbox-row">
+            <input id="terms" name="terms" type="checkbox" required>
+            <label for="terms">I accept the rental terms and privacy policy</label>
+          </div>
+        </fieldset>
+
+     
+        <div class="form-actions">
+          <button type="submit" class="btn primary lg">Submit rental request</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <address>
+          <p>Email: <a href="mailto:info@bluecurrent.fi">info@bluecurrent.fi</a></p>
+          <p>Locations: Espoo Lakes, Helsinki Coast</p>
+        </address>
+      </section>
+      <section aria-labelledby="links-title">
+        <h2 id="links-title">Links</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="social-title">
+        <h2 id="social-title">Social</h2>
+        <ul class="social">
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="YouTube">YouTube</a></li>
+          <li><a href="#" aria-label="TikTok">TikTok</a></li>
+        </ul>
+      </section>
+    </div>
+    <p class="legal">© 2025 BlueCurrent Rentals. All rights reserved.</p>
+  </footer>
+</body>
+</html>
